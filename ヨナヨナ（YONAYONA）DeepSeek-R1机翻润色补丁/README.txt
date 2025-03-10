@@ -1,4 +1,4 @@
-本补丁首发于q群979550010，kungal补丁站以及个人GitHub主页https://github.com/IceDewcloudtrail，由@一瓶冰露制作，完全免费，若您收费获得本补丁，请顺手点个举报。
+本补丁首发于q群728150597，kungal补丁站以及个人GitHub主页https://github.com/IceDewcloudtrail，由@一瓶冰露制作，完全免费，若您收费获得本补丁，请顺手点个举报。
 
 使用火山引擎的DeepSeek-R1制作。
 
