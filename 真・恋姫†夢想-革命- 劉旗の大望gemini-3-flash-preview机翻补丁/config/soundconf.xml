@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="GBK"?>
+<document>
+	<SOUNDGROUP>
+		<group00>
+			<comment>背景音乐</comment>
+			<id>0</id>
+			<label>bgm</label>
+			<min>0</min>
+			<max>5</max>
+		</group00>
+		<group01>
+			<comment>音效</comment>
+			<id>1</id>
+			<label>se</label>
+			<min>6</min>
+			<max>14</max>
+		</group01>
+		<group02>
+			<comment>角色语音</comment>
+			<id>2</id>
+			<label>voice</label>
+			<min>15</min>
+			<max>23</max>
+		</group02>
+		<group03>
+			<comment>背景语音</comment>
+			<id>4</id>
+			<label>bgv</label>
+			<min>24</min>
+			<max>27</max>
+		</group03>
+		<group04>
+			<comment>BGC</comment>
+			<id>5</id>
+			<label>bgc</label>
+			<min>28</min>
+			<max>31</max>
+		</group04>
+	</SOUNDGROUP>
+
+	<MASTER>
+		<volume>100</volume>
+		<play>1</play>
+	</MASTER>
+
+	<PART>
+		<!-- BGM -->
+		<bgm>
+			<name>BGM</name>
+			<id>0</id>
+			<type>bgm</type>
+			<head>BGM</head>
+			<group>0</group>
+			<int>bgm</int>
+			<mastervol>100</mastervol>
+			<volume>50</volume>
+			<play>1</play>
+			<sysplay>-1</sysplay>
+			<voicevol>40</voicevol>
+		</bgm>
+
+		<!-- SE -->
+		<se>
+			<name>音效</name>
+			<id>1</id>
+			<type>se</type>
+			<head>SE</head>
+			<group>1</group>
+			<int>se</int>
+			<mastervol>100</mastervol>
+			<volume>80</volume>
+			<play>1</play>
+			<sysplay>-1</sysplay>
+		</se>
+
+		<!-- VOICE -->
+		<voice>
+			<name>语音</name>
+			<id>2</id>
+			<type>voice</type>
+			<head></head>
+			<group>2</group>
+			<int></int>
+			<mastervol>100</mastervol>
+			<volume>100</volume>
+			<play>1</play>
+			<sysplay>-1</sysplay>
+			<part>
+				<VOICE_000>	<name>桃香</name>	<id>000</id>	<type>woman</type>	<head>CA_</head>	<int>pcm_CA</int>	<volume>80</volume>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_000>
+				<VOICE_001>	<name>爱纱</name>	<id>001</id>	<type>woman</type>	<head>CB_</head>	<int>pcm_CB</int>	<volume>80</volume>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_001>
+				<VOICE_002>	<name>铃铃</name>	<id>002</id>	<type>woman</type>	<head>CC_</head>	<int>pcm_CC</int>	<volume>80</volume>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_002>
+				<VOICE_003>	<name>朱里</name>	<id>003</id>	<type>woman</type>	<head>CG_</head>	<int>pcm_CG</int>	<volume>80</volume>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_003>
+				<VOICE_004>	<name>雏里</name>	<id>004</id>	<type>woman</type>	<head>CH_</head>	<int>pcm_CH</int>	<volume>80</volume>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_004>
+				<VOICE_005>	<name>星</name>		<id>005</id>	<type>woman</type>	<head>CD_</head>	<int>pcm_CD</int>	<volume>80</volume>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_005>
+				<VOICE_006>	<name>翠</name>		<id>006</id>	<type>woman</type>	<head>CE_</head>	<int>pcm_CE</int>	<volume>80</volume>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_006>
+				<VOICE_007>	<name>蒲公英</name>	<id>007</id>	<type>woman</type>	<head>CK_</head>	<int>pcm_CK</int>	<volume>80</volume>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_007>
+				<VOICE_008>	<name>鶸</name>		<id>008</id>	<type>woman</type>	<head>CL_</head>	<int>pcm_CL</int>	<volume>80</volume>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_008>
+				<VOICE_009>	<name>苍</name>		<id>009</id>	<type>woman</type>	<head>CM_</head>	<int>pcm_CM</int>	<volume>80</volume>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_009>
+				<VOICE_010>	<name>紫苑</name>	<id>010</id>	<type>woman</type>	<head>CF_</head>	<int>pcm_CF</int>	<volume>80</volume>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_010>
+				<VOICE_011>	<name>璃璃</name>	<id>011</id>	<type>woman</type>	<head>CQ_</head>	<int>pcm_CQ</int>	<volume>80</volume>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_011>
+				<VOICE_012>	<name>桔梗</name>	<id>012</id>	<type>woman</type>	<head>CI_</head>	<int>pcm_CI</int>	<volume>80</volume>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_012>
+				<VOICE_013>	<name>焰耶</name>	<id>013</id>	<type>woman</type>	<head>CJ_</head>	<int>pcm_CJ</int>	<volume>80</volume>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_013>
+				<VOICE_014>	<name>雷雷</name>	<id>014</id>	<type>woman</type>	<head>CN_</head>	<int>pcm_CN</int>	<volume>80</volume>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_014>
+				<VOICE_015>	<name>电电</name>	<id>015</id>	<type>woman</type>	<head>CO_</head>	<int>pcm_CO</int>	<volume>80</volume>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_015>
+				<VOICE_016>	<name>美花</name>	<id>016</id>	<type>woman</type>	<head>CP_</head>	<int>pcm_CP</int>	<volume>80</volume>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_016>
+				<VOICE_017>	<name>月</name>		<id>017</id>	<type>woman</type>	<head>HF_</head>	<int>pcm_HF</int>	<volume>80</volume>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_017>
+				<VOICE_018>	<name>咏</name>		<id>018</id>	<type>woman</type>	<head>HG_</head>	<int>pcm_HG</int>	<volume>80</volume>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_018>
+				<VOICE_019>	<name>恋</name>		<id>019</id>	<type>woman</type>	<head>HH_</head>	<int>pcm_HH</int>	<volume>80</volume>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_019>
+				<VOICE_020>	<name>宁宁</name>	<id>020</id>	<type>woman</type>	<head>HI_</head>	<int>pcm_HI</int>	<volume>80</volume>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_020>
+				<VOICE_021>	<name>白莲</name>	<id>021</id>	<type>woman</type>	<head>IC_</head>	<int>pcm_IC</int>	<volume>80</volume>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_021>
+				<VOICE_022>	<name>风铃</name>	<id>022</id>	<type>woman</type>	<head>HL_</head>	<int>pcm_HL</int>	<volume>80</volume>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_022>
+				<VOICE_023>	<name>楼杏</name>	<id>023</id>	<type>woman</type>	<head>HK_</head>	<int>pcm_HK</int>	<volume>80</volume>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_023>
+				<VOICE_024>	<name>丽羽</name>	<id>024</id>	<type>woman</type>	<head>DA_</head>	<int>pcm_DA</int>	<volume>80</volume>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_024>
+				<VOICE_025>	<name>猪猪子</name>	<id>025</id>	<type>woman</type>	<head>DB_</head>	<int>pcm_DB</int>	<volume>80</volume>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_025>
+				<VOICE_026>	<name>斗诗</name>	<id>026</id>	<type>woman</type>	<head>DC_</head>	<int>pcm_DC</int>	<volume>80</volume>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_026>
+				<VOICE_027>	<name>真直</name>	<id>027</id>	<type>woman</type>	<head>DD_</head>	<int>pcm_DD</int>	<volume>80</volume>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_027>
+				<VOICE_028>	<name>空丹</name>	<id>028</id>	<type>woman</type>	<head>HA_</head>	<int>pcm_HA</int>	<volume>80</volume>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_028>
+				<VOICE_029>	<name>白汤</name>	<id>029</id>	<type>woman</type>	<head>HB_</head>	<int>pcm_HB</int>	<volume>80</volume>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_029>
+				<VOICE_030>	<name>黄</name>		<id>030</id>	<type>woman</type>	<head>HE_</head>	<int>pcm_HE</int>	<volume>80</volume>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_030>
+				<VOICE_031>	<name>美以</name>	<id>031</id>	<type>woman</type>	<head>FA_</head>	<int>pcm_FA</int>	<volume>80</volume>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_031>
+				<VOICE_032>	<name>三花</name>	<id>032</id>	<type>woman</type>	<head>FB_</head>	<int>pcm_FB</int>	<volume>80</volume>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_032>
+				<VOICE_033>	<name>虎斑</name>	<id>033</id>	<type>woman</type>	<head>FC_</head>	<int>pcm_FC</int>	<volume>80</volume>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_033>
+				<VOICE_034>	<name>暹罗</name>	<id>034</id>	<type>woman</type>	<head>FD_</head>	<int>pcm_FD</int>	<volume>80</volume>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_034>
+				<VOICE_035>	<name>华琳</name>	<id>035</id>	<type>woman</type>	<head>AA_</head>	<int>pcm_AA</int>	<volume>80</volume>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_035>
+				<VOICE_036>	<name>春兰</name>	<id>036</id>	<type>woman</type>	<head>AB_</head>	<int>pcm_AB</int>	<volume>80</volume>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_036>
+				<VOICE_037>	<name>秋兰</name>	<id>037</id>	<type>woman</type>	<head>AC_</head>	<int>pcm_AC</int>	<volume>80</volume>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_037>
+				<VOICE_038>	<name>华仑</name>	<id>038</id>	<type>woman</type>	<head>AG_</head>	<int>pcm_AG</int>	<volume>80</volume>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_038>
+				<VOICE_039>	<name>荣华</name>	<id>039</id>	<type>woman</type>	<head>AI_</head>	<int>pcm_AI</int>	<volume>80</volume>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_039>
+				<VOICE_040>	<name>柳琳</name>	<id>040</id>	<type>woman</type>	<head>AH_</head>	<int>pcm_AH</int>	<volume>80</volume>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_040>
+				<VOICE_041>	<name>季衣</name>	<id>041</id>	<type>woman</type>	<head>AE_</head>	<int>pcm_AE</int>	<volume>80</volume>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_041>
+				<VOICE_042>	<name>流琉</name>	<id>042</id>	<type>woman</type>	<head>AF_</head>	<int>pcm_AF</int>	<volume>80</volume>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_042>
+				<VOICE_043>	<name>香风</name>	<id>043</id>	<type>woman</type>	<head>AO_</head>	<int>pcm_AO</int>	<volume>80</volume>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_043>
+				<VOICE_044>	<name>桂花</name>	<id>044</id>	<type>woman</type>	<head>AD_</head>	<int>pcm_AD</int>	<volume>80</volume>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_044>
+				<VOICE_045>	<name>禀</name>		<id>045</id>	<type>woman</type>	<head>AN_</head>	<int>pcm_AN</int>	<volume>80</volume>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_045>
+				<VOICE_046>	<name>风</name>		<id>046</id>	<type>woman</type>	<head>AM_</head>	<int>pcm_AM</int>	<volume>80</volume>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_046>
+				<VOICE_047>	<name>霞</name>		<id>047</id>	<type>woman</type>	<head>HJ_</head>	<int>pcm_HJ</int>	<volume>80</volume>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_047>
+				<VOICE_048>	<name>凪</name>		<id>048</id>	<type>woman</type>	<head>AJ_</head>	<int>pcm_AJ</int>	<volume>80</volume>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_048>
+				<VOICE_049>	<name>真樱</name>	<id>049</id>	<type>woman</type>	<head>AK_</head>	<int>pcm_AK</int>	<volume>80</volume>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_049>
+				<VOICE_050>	<name>沙和</name>	<id>050</id>	<type>woman</type>	<head>AL_</head>	<int>pcm_AL</int>	<volume>80</volume>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_050>
+				<VOICE_051>	<name>灯</name>		<id>051</id>	<type>woman</type>	<head>IA_</head>	<int>pcm_IA</int>	<volume>80</volume>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_051>
+				<VOICE_052>	<name>喜雨</name>	<id>052</id>	<type>woman</type>	<head>IB_</head>	<int>pcm_IB</int>	<volume>80</volume>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_052>
+				<VOICE_053>	<name>天和</name>	<id>053</id>	<type>woman</type>	<head>GA_</head>	<int>pcm_GA</int>	<volume>80</volume>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_053>
+				<VOICE_054>	<name>地和</name>	<id>054</id>	<type>woman</type>	<head>GB_</head>	<int>pcm_GB</int>	<volume>80</volume>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_054>
+				<VOICE_055>	<name>人和</name>	<id>055</id>	<type>woman</type>	<head>GC_</head>	<int>pcm_GC</int>	<volume>80</volume>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_055>
+				<VOICE_056>	<name>倾</name>		<id>056</id>	<type>woman</type>	<head>HC_</head>	<int>pcm_HC</int>	<volume>80</volume>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_056>
+				<VOICE_057>	<name>瑞姬</name>	<id>057</id>	<type>woman</type>	<head>HD_</head>	<int>pcm_HD</int>	<volume>80</volume>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_057>
+				<VOICE_058>	<name>荀彧</name>	<id>058</id>	<type>woman</type>	<head>XA_</head>	<int>pcm_XA</int>	<volume>80</volume>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_058>
+				<VOICE_059>	<name>炎莲</name>	<id>059</id>	<type>woman</type>	<head>BA_</head>	<int>pcm_BA</int>	<volume>80</volume>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_059>
+				<VOICE_060>	<name>雪莲</name>	<id>060</id>	<type>woman</type>	<head>BB_</head>	<int>pcm_BB</int>	<volume>80</volume>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_060>
+				<VOICE_061>	<name>莲华</name>	<id>061</id>	<type>woman</type>	<head>BC_</head>	<int>pcm_BC</int>	<volume>80</volume>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_061>
+				<VOICE_062>	<name>小莲</name>	<id>062</id>	<type>woman</type>	<head>BD_</head>	<int>pcm_BD</int>	<volume>80</volume>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_062>
+				<VOICE_063>	<name>冥琳</name>	<id>063</id>	<type>woman</type>	<head>BE_</head>	<int>pcm_BE</int>	<volume>80</volume>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_063>
+				<VOICE_064>	<name>梨晏</name>	<id>064</id>	<type>woman</type>	<head>BL_</head>	<int>pcm_BL</int>	<volume>80</volume>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_064>
+				<VOICE_065>	<name>思春</name>	<id>065</id>	<type>woman</type>	<head>BJ_</head>	<int>pcm_BJ</int>	<volume>80</volume>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_065>
+				<VOICE_066>	<name>明命</name>	<id>066</id>	<type>woman</type>	<head>BK_</head>	<int>pcm_BK</int>	<volume>80</volume>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_066>
+				<VOICE_067>	<name>祭</name>		<id>067</id>	<type>woman</type>	<head>BH_</head>	<int>pcm_BH</int>	<volume>80</volume>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_067>
+				<VOICE_068>	<name>粹怜</name>	<id>068</id>	<type>woman</type>	<head>BG_</head>	<int>pcm_BG</int>	<volume>80</volume>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_068>
+				<VOICE_069>	<name>稳</name>		<id>069</id>	<type>woman</type>	<head>BI_</head>	<int>pcm_BI</int>	<volume>80</volume>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_069>
+				<VOICE_070>	<name>亚莎</name>	<id>070</id>	<type>woman</type>	<head>BM_</head>	<int>pcm_BM</int>	<volume>80</volume>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_070>
+				<VOICE_071>	<name>雷火</name>	<id>071</id>	<type>woman</type>	<head>BF_</head>	<int>pcm_BF</int>	<volume>80</volume>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_071>
+				<VOICE_072>	<name>包</name>		<id>072</id>	<type>woman</type>	<head>BN_</head>	<int>pcm_BN</int>	<volume>80</volume>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_072>
+				<VOICE_073>	<name>美羽</name>	<id>073</id>	<type>woman</type>	<head>EA_</head>	<int>pcm_EA</int>	<volume>80</volume>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_073>
+				<VOICE_074>	<name>七乃</name>	<id>074</id>	<type>woman</type>	<head>EB_</head>	<int>pcm_EB</int>	<volume>80</volume>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_074>
+				<VOICE_075>	<name>孙登</name>	<id>075</id>	<type>woman</type>	<head>XB_</head>	<int>pcm_XB</int>	<volume>80</volume>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_075>
+				<VOICE_076>	<name>甘述</name>	<id>076</id>	<type>woman</type>	<head>XC_</head>	<int>pcm_XC</int>	<volume>80</volume>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_076>
+				<VOICE_077>	<name>华雄</name>	<id>077</id>	<type>woman</type>	<head>HM_</head>	<int>pcm_HM</int>	<volume>80</volume>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_077>
+				<VOICE_078>	<name>貂蝉</name>	<id>078</id>	<type>man</type>	<head>ID_</head>	<int>pcm_ID</int>	<volume>80</volume>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_078>
+				<VOICE_079>	<name>华佗</name>	<id>079</id>	<type>man</type>	<head>IF_</head>	<int>pcm_IF</int>	<volume>80</volume>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_079>
+				<VOICE_080>	<name>卑弥呼</name>	<id>080</id>	<type>man</type>	<head>IE_</head>	<int>pcm_IE</int>	<volume>80</volume>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_080>
+				<VOICE_081>	<name>黄祖</name>	<id>081</id>	<type>woman</type>	<head>IG_</head>	<int>pcm_IG</int>	<volume>80</volume>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_081>
+			</part>
+		</voice>
+
+		<!-- 动画 -->
+		<movie>
+			<name>MOVIE</name>
+			<id>3</id>
+			<type>movie</type>
+			<head></head>
+			<group>0</group>
+			<int></int>
+			<mastervol>100</mastervol>
+			<volume>70</volume>
+			<play>1</play>
+			<sysplay>-1</sysplay>
+			<voicevol>-1</voicevol>
+		</movie>
+
+		<!-- BGV -->
+		<bgv>
+			<name>BGVoice</name>
+			<id>4</id>
+			<type>bgvoice</type>
+			<head></head>
+			<group>3</group>
+			<int></int>
+			<mastervol>100</mastervol>
+			<volume>80</volume>
+			<play>1</play>
+			<sysplay>-1</sysplay>
+			<voicevol>0</voicevol>
+			<skipvol>0</skipvol>
+			<part>
+				<VOICE_000>	<name>桃香</name>	<id>000</id>	<head>CA_BGV</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_000>
+				<VOICE_001>	<name>爱纱</name>	<id>001</id>	<head>CB_BGV</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_001>
+				<VOICE_002>	<name>铃铃</name>	<id>002</id>	<head>CC_BGV</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_002>
+				<VOICE_003>	<name>朱里</name>	<id>003</id>	<head>CG_BGV</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_003>
+				<VOICE_004>	<name>雏里</name>	<id>004</id>	<head>CH_BGV</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_004>
+				<VOICE_005>	<name>星</name>		<id>005</id>	<head>CD_BGV</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_005>
+				<VOICE_006>	<name>翠</name>		<id>006</id>	<head>CE_BGV</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_006>
+				<VOICE_007>	<name>蒲公英</name>	<id>007</id>	<head>CK_BGV</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_007>
+				<VOICE_008>	<name>鶸</name>		<id>008</id>	<head>CL_BGV</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_008>
+				<VOICE_009>	<name>苍</name>		<id>009</id>	<head>CM_BGV</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_009>
+				<VOICE_010>	<name>紫苑</name>	<id>010</id>	<head>CF_BGV</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_010>
+				<VOICE_011>	<name>璃璃</name>	<id>011</id>	<head>CQ_BGV</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_011>
+				<VOICE_012>	<name>桔梗</name>	<id>012</id>	<head>CI_BGV</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_012>
+				<VOICE_013>	<name>焰耶</name>	<id>013</id>	<head>CJ_BGV</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_013>
+				<VOICE_014>	<name>雷雷</name>	<id>014</id>	<head>CN_BGV</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_014>
+				<VOICE_015>	<name>电电</name>	<id>015</id>	<head>CO_BGV</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_015>
+				<VOICE_016>	<name>美花</name>	<id>016</id>	<head>CP_BGV</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_016>
+				<VOICE_017>	<name>月</name>		<id>017</id>	<head>HF_BGV</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_017>
+				<VOICE_018>	<name>咏</name>		<id>018</id>	<head>HG_BGV</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_018>
+				<VOICE_019>	<name>恋</name>		<id>019</id>	<head>HH_BGV</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_019>
+				<VOICE_020>	<name>宁宁</name>	<id>020</id>	<head>HI_BGV</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_020>
+				<VOICE_021>	<name>白莲</name>	<id>021</id>	<head>IC_BGV</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_021>
+				<VOICE_022>	<name>风铃</name>	<id>022</id>	<head>HL_BGV</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_022>
+				<VOICE_023>	<name>楼杏</name>	<id>023</id>	<head>HK_BGV</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_023>
+				<VOICE_024>	<name>丽羽</name>	<id>024</id>	<head>DA_BGV</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_024>
+				<VOICE_025>	<name>猪猪子</name>	<id>025</id>	<head>DB_BGV</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_025>
+				<VOICE_026>	<name>斗诗</name>	<id>026</id>	<head>DC_BGV</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_026>
+				<VOICE_027>	<name>真直</name>	<id>027</id>	<head>DD_BGV</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_027>
+				<VOICE_028>	<name>空丹</name>	<id>028</id>	<head>HA_BGV</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_028>
+				<VOICE_029>	<name>白汤</name>	<id>029</id>	<head>HB_BGV</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_029>
+				<VOICE_030>	<name>黄</name>		<id>030</id>	<head>HE_BGV</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_030>
+				<VOICE_031>	<name>美以</name>	<id>031</id>	<head>FA_BGV</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_031>
+				<VOICE_032>	<name>三花</name>	<id>032</id>	<head>FB_BGV</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_032>
+				<VOICE_033>	<name>虎斑</name>	<id>033</id>	<head>FC_BGV</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_033>
+				<VOICE_034>	<name>暹罗</name>	<id>034</id>	<head>FD_BGV</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_034>
+				<VOICE_035>	<name>华琳</name>	<id>035</id>	<head>AA_BGV</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_035>
+				<VOICE_036>	<name>春兰</name>	<id>036</id>	<head>AB_BGV</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_036>
+				<VOICE_037>	<name>秋兰</name>	<id>037</id>	<head>AC_BGV</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_037>
+				<VOICE_038>	<name>华仑</name>	<id>038</id>	<head>AG_BGV</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_038>
+				<VOICE_039>	<name>荣华</name>	<id>039</id>	<head>AI_BGV</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_039>
+				<VOICE_040>	<name>柳琳</name>	<id>040</id>	<head>AH_BGV</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_040>
+				<VOICE_041>	<name>季衣</name>	<id>041</id>	<head>AE_BGV</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_041>
+				<VOICE_042>	<name>流琉</name>	<id>042</id>	<head>AF_BGV</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_042>
+				<VOICE_043>	<name>香风</name>	<id>043</id>	<head>AO_BGV</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_043>
+				<VOICE_044>	<name>桂花</name>	<id>044</id>	<head>AD_BGV</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_044>
+				<VOICE_045>	<name>禀</name>		<id>045</id>	<head>AN_BGV</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_045>
+				<VOICE_046>	<name>风</name>		<id>046</id>	<head>AM_BGV</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_046>
+				<VOICE_047>	<name>霞</name>		<id>047</id>	<head>HJ_BGV</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_047>
+				<VOICE_048>	<name>凪</name>		<id>048</id>	<head>AJ_BGV</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_048>
+				<VOICE_049>	<name>真樱</name>	<id>049</id>	<head>AK_BGV</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_049>
+				<VOICE_050>	<name>沙和</name>	<id>050</id>	<head>AL_BGV</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_050>
+				<VOICE_051>	<name>灯</name>		<id>051</id>	<head>IA_BGV</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_051>
+				<VOICE_052>	<name>喜雨</name>	<id>052</id>	<head>IB_BGV</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_052>
+				<VOICE_053>	<name>天和</name>	<id>053</id>	<head>GA_BGV</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_053>
+				<VOICE_054>	<name>地和</name>	<id>054</id>	<head>GB_BGV</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_054>
+				<VOICE_055>	<name>人和</name>	<id>055</id>	<head>GC_BGV</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_055>
+				<VOICE_056>	<name>倾</name>		<id>056</id>	<head>HC_BGV</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_056>
+				<VOICE_057>	<name>瑞姬</name>	<id>057</id>	<head>HD_BGV</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_057>
+				<VOICE_058>	<name>荀彧</name>	<id>058</id>	<head>XA_BGV</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_058>
+				<VOICE_059>	<name>炎莲</name>	<id>059</id>	<head>BA_BGV</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_059>
+				<VOICE_060>	<name>雪莲</name>	<id>060</id>	<head>BB_BGV</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_060>
+				<VOICE_061>	<name>莲华</name>	<id>061</id>	<head>BC_BGV</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_061>
+				<VOICE_062>	<name>小莲</name>	<id>062</id>	<head>BD_BGV</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_062>
+				<VOICE_063>	<name>冥琳</name>	<id>063</id>	<head>BE_BGV</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_063>
+				<VOICE_064>	<name>梨晏</name>	<id>064</id>	<head>BL_BGV</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_064>
+				<VOICE_065>	<name>思春</name>	<id>065</id>	<head>BJ_BGV</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_065>
+				<VOICE_066>	<name>明命</name>	<id>066</id>	<head>BK_BGV</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_066>
+				<VOICE_067>	<name>祭</name>		<id>067</id>	<head>BH_BGV</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_067>
+				<VOICE_068>	<name>粹怜</name>	<id>068</id>	<head>BG_BGV</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_068>
+				<VOICE_069>	<name>稳</name>		<id>069</id>	<head>BI_BGV</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_069>
+				<VOICE_070>	<name>亚莎</name>	<id>070</id>	<head>BM_BGV</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_070>
+				<VOICE_071>	<name>雷火</name>	<id>071</id>	<head>BF_BGV</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_071>
+				<VOICE_072>	<name>包</name>		<id>072</id>	<head>BN_BGV</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_072>
+				<VOICE_073>	<name>美羽</name>	<id>073</id>	<head>EA_BGV</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_073>
+				<VOICE_074>	<name>七乃</name>	<id>074</id>	<head>EB_BGV</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_074>
+				<VOICE_075>	<name>孙登</name>	<id>075</id>	<head>XB_BGV</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_075>
+				<VOICE_076>	<name>甘述</name>	<id>076</id>	<head>XC_BGV</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_076>
+				<VOICE_077>	<name>华雄</name>	<id>077</id>	<head>HM_BGV</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_077>
+				<VOICE_078>	<name>貂蝉</name>	<id>078</id>	<head>ID_BGV</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_078>
+				<VOICE_079>	<name>华佗</name>	<id>079</id>	<head>IF_BGV</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_079>
+				<VOICE_080>	<name>卑弥呼</name>	<id>080</id>	<head>IE_BGV</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_080>
+				<VOICE_081>	<name>黄祖</name>	<id>081</id>	<head>IG_BGV</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_081>
+			</part>
+		</bgv>
+
+		<!-- BGC -->
+		<bgc>
+			<name>BGC</name>
+			<id>5</id>
+			<type>bgvoice</type>
+			<head></head>
+			<group>4</group>
+			<int></int>
+			<mastervol>100</mastervol>
+			<volume>80</volume>
+			<play>1</play>
+			<sysplay>-1</sysplay>
+			<voicevol>0</voicevol>
+			<skipvol>0</skipvol>
+			<part>
+				<VOICE_000>	<name>桃香</name>	<id>000</id>	<head>CA_BGC</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_000>
+				<VOICE_001>	<name>爱纱</name>	<id>001</id>	<head>CB_BGC</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_001>
+				<VOICE_002>	<name>铃铃</name>	<id>002</id>	<head>CC_BGC</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_002>
+				<VOICE_003>	<name>朱里</name>	<id>003</id>	<head>CG_BGC</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_003>
+				<VOICE_004>	<name>雏里</name>	<id>004</id>	<head>CH_BGC</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_004>
+				<VOICE_005>	<name>星</name>		<id>005</id>	<head>CD_BGC</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_005>
+				<VOICE_006>	<name>翠</name>		<id>006</id>	<head>CE_BGC</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_006>
+				<VOICE_007>	<name>蒲公英</name>	<id>007</id>	<head>CK_BGC</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_007>
+				<VOICE_008>	<name>鶸</name>		<id>008</id>	<head>CL_BGC</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_008>
+				<VOICE_009>	<name>苍</name>		<id>009</id>	<head>CM_BGC</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_009>
+				<VOICE_010>	<name>紫苑</name>	<id>010</id>	<head>CF_BGC</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_010>
+				<VOICE_011>	<name>璃璃</name>	<id>011</id>	<head>CQ_BGC</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_011>
+				<VOICE_012>	<name>桔梗</name>	<id>012</id>	<head>CI_BGC</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_012>
+				<VOICE_013>	<name>焰耶</name>	<id>013</id>	<head>CJ_BGC</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_013>
+				<VOICE_014>	<name>雷雷</name>	<id>014</id>	<head>CN_BGC</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_014>
+				<VOICE_015>	<name>电电</name>	<id>015</id>	<head>CO_BGC</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_015>
+				<VOICE_016>	<name>美花</name>	<id>016</id>	<head>CP_BGC</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_016>
+				<VOICE_017>	<name>月</name>		<id>017</id>	<head>HF_BGC</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_017>
+				<VOICE_018>	<name>咏</name>		<id>018</id>	<head>HG_BGC</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_018>
+				<VOICE_019>	<name>恋</name>		<id>019</id>	<head>HH_BGC</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_019>
+				<VOICE_020>	<name>宁宁</name>	<id>020</id>	<head>HI_BGC</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_020>
+				<VOICE_021>	<name>白莲</name>	<id>021</id>	<head>IC_BGC</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_021>
+				<VOICE_022>	<name>风铃</name>	<id>022</id>	<head>HL_BGC</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_022>
+				<VOICE_023>	<name>楼杏</name>	<id>023</id>	<head>HK_BGC</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_023>
+				<VOICE_024>	<name>丽羽</name>	<id>024</id>	<head>DA_BGC</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_024>
+				<VOICE_025>	<name>猪猪子</name>	<id>025</id>	<head>DB_BGC</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_025>
+				<VOICE_026>	<name>斗诗</name>	<id>026</id>	<head>DC_BGC</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_026>
+				<VOICE_027>	<name>真直</name>	<id>027</id>	<head>DD_BGC</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_027>
+				<VOICE_028>	<name>空丹</name>	<id>028</id>	<head>HA_BGC</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_028>
+				<VOICE_029>	<name>白汤</name>	<id>029</id>	<head>HB_BGC</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_029>
+				<VOICE_030>	<name>黄</name>		<id>030</id>	<head>HE_BGC</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_030>
+				<VOICE_031>	<name>美以</name>	<id>031</id>	<head>FA_BGC</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_031>
+				<VOICE_032>	<name>三花</name>	<id>032</id>	<head>FB_BGC</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_032>
+				<VOICE_033>	<name>虎斑</name>	<id>033</id>	<head>FC_BGC</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_033>
+				<VOICE_034>	<name>暹罗</name>	<id>034</id>	<head>FD_BGC</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_034>
+				<VOICE_035>	<name>华琳</name>	<id>035</id>	<head>AA_BGC</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_035>
+				<VOICE_036>	<name>春兰</name>	<id>036</id>	<head>AB_BGC</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_036>
+				<VOICE_037>	<name>秋兰</name>	<id>037</id>	<head>AC_BGC</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_037>
+				<VOICE_038>	<name>华仑</name>	<id>038</id>	<head>AG_BGC</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_038>
+				<VOICE_039>	<name>荣华</name>	<id>039</id>	<head>AI_BGC</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_039>
+				<VOICE_040>	<name>柳琳</name>	<id>040</id>	<head>AH_BGC</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_040>
+				<VOICE_041>	<name>季衣</name>	<id>041</id>	<head>AE_BGC</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_041>
+				<VOICE_042>	<name>流琉</name>	<id>042</id>	<head>AF_BGC</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_042>
+				<VOICE_043>	<name>香风</name>	<id>043</id>	<head>AO_BGC</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_043>
+				<VOICE_044>	<name>桂花</name>	<id>044</id>	<head>AD_BGC</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_044>
+				<VOICE_045>	<name>禀</name>		<id>045</id>	<head>AN_BGC</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_045>
+				<VOICE_046>	<name>风</name>		<id>046</id>	<head>AM_BGC</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_046>
+				<VOICE_047>	<name>霞</name>		<id>047</id>	<head>HJ_BGC</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_047>
+				<VOICE_048>	<name>凪</name>		<id>048</id>	<head>AJ_BGC</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_048>
+				<VOICE_049>	<name>真樱</name>	<id>049</id>	<head>AK_BGC</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_049>
+				<VOICE_050>	<name>沙和</name>	<id>050</id>	<head>AL_BGC</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_050>
+				<VOICE_051>	<name>灯</name>		<id>051</id>	<head>IA_BGC</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_051>
+				<VOICE_052>	<name>喜雨</name>	<id>052</id>	<head>IB_BGC</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_052>
+				<VOICE_053>	<name>天和</name>	<id>053</id>	<head>GA_BGC</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_053>
+				<VOICE_054>	<name>地和</name>	<id>054</id>	<head>GB_BGC</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_054>
+				<VOICE_055>	<name>人和</name>	<id>055</id>	<head>GC_BGC</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_055>
+				<VOICE_056>	<name>倾</name>		<id>056</id>	<head>HC_BGC</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_056>
+				<VOICE_057>	<name>瑞姬</name>	<id>057</id>	<head>HD_BGC</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_057>
+				<VOICE_058>	<name>荀彧</name>	<id>058</id>	<head>XA_BGC</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_058>
+				<VOICE_059>	<name>炎莲</name>	<id>059</id>	<head>BA_BGC</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_059>
+				<VOICE_060>	<name>雪莲</name>	<id>060</id>	<head>BB_BGC</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_060>
+				<VOICE_061>	<name>莲华</name>	<id>061</id>	<head>BC_BGC</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_061>
+				<VOICE_062>	<name>小莲</name>	<id>062</id>	<head>BD_BGC</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_062>
+				<VOICE_063>	<name>冥琳</name>	<id>063</id>	<head>BE_BGC</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_063>
+				<VOICE_064>	<name>梨晏</name>	<id>064</id>	<head>BL_BGC</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_064>
+				<VOICE_065>	<name>思春</name>	<id>065</id>	<head>BJ_BGC</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_065>
+				<VOICE_066>	<name>明命</name>	<id>066</id>	<head>BK_BGC</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_066>
+				<VOICE_067>	<name>祭</name>		<id>067</id>	<head>BH_BGC</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_067>
+				<VOICE_068>	<name>粹怜</name>	<id>068</id>	<head>BG_BGC</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_068>
+				<VOICE_069>	<name>稳</name>		<id>069</id>	<head>BI_BGC</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_069>
+				<VOICE_070>	<name>亚莎</name>	<id>070</id>	<head>BM_BGC</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_070>
+				<VOICE_071>	<name>雷火</name>	<id>071</id>	<head>BF_BGC</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_071>
+				<VOICE_072>	<name>包</name>		<id>072</id>	<head>BN_BGC</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_072>
+				<VOICE_073>	<name>美羽</name>	<id>073</id>	<head>EA_BGC</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_073>
+				<VOICE_074>	<name>七乃</name>	<id>074</id>	<head>EB_BGC</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_074>
+				<VOICE_075>	<name>孙登</name>	<id>075</id>	<head>XB_BGC</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_075>
+				<VOICE_076>	<name>甘述</name>	<id>076</id>	<head>XC_BGC</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_076>
+				<VOICE_077>	<name>华雄</name>	<id>077</id>	<head>HM_BGC</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_077>
+				<VOICE_078>	<name>貂蝉</name>	<id>078</id>	<head>ID_BGC</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_078>
+				<VOICE_079>	<name>华佗</name>	<id>079</id>	<head>IF_BGC</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_079>
+				<VOICE_080>	<name>卑弥呼</name>	<id>080</id>	<head>IE_BGC</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_080>
+				<VOICE_081>	<name>黄祖</name>	<id>081</id>	<head>IG_BGC</head>	<int>bgv</int>	<play>1</play>	<sysplay>-1</sysplay>	</VOICE_081>
+			</part>
+		</bgc>
+	</PART>
+
+</document>
