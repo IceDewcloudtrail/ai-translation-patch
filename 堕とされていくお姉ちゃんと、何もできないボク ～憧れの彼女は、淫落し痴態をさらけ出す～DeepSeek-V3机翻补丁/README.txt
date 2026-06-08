@@ -1,5 +1,3 @@
-本补丁首发于q群728150597以及GitHub仓库https://github.com/IceDewcloudtrail/ai-translation-patch，完全免费，若您收费获得本补丁，请顺手点个举报。
-
 使用硅基流动的Pro/deepseek-ai/DeepSeek-V3制作。
 
 这个游戏原文里很多人物对话有“w”“ww”在句子中间或末尾，应该是官方玩梗。
